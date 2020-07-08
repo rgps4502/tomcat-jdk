@@ -4,7 +4,7 @@
 #java
 yum install java-1.8.0-openjdk -y
 
-原文網址：https://kknews.cc/tech/mpxpb46.html
+
 #jenkins穩定版
 sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
 sudo rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
