@@ -18,6 +18,7 @@ sed -i '56cJENKINS_PORT="80"' /etc/sysconfig/jenkins
 sudo chkconfig jenkins on
 service jenkins start
 
+sleep 3
 echo "將以下密碼貼入web password"
 password=sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 echo $password
